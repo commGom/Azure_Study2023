@@ -185,3 +185,40 @@ ex) ![Image Description](./brokenArm-commGom.jpeg)
 ```
 [![commGom로고이미지](./brokenArm-commGom.jpeg)](https://github.com/commGom/Azure_Study2023)
 ```
+
+## 9. 표 (Table)
+- 설명 
+   - |(vertical bar) 기호를 통해 테이블을 표현 가능. (가장 좌측, 우측 생략 가능)
+
+   - 헤더와 셀을 구분할 때 3개 이상의 -(하이픈, 대시)가 필요 하다.
+
+   - : (콜론) 기호를 통해 정렬할 수 있다.
+
+| Header | value | Description |
+| --: | :-- | :--: |
+| 정렬 | --: | 우측정렬 |
+| 정렬 | :-- | 좌측정렬 |
+| 정렬 | :--: | 가운데정렬 |
+
+```
+| Header | value | Description |
+| --: | :-- | :--: |
+| 정렬 | --: | 우측정렬 |
+| 정렬 | :-- | 좌측정렬 |
+| 정렬 | :--: | 가운데정렬 |
+```
+
+## 10. 코드(code)
+- 설명 : 백틱(` : 숫자 1번 키 왼쪽에 위치)으로 강조할 내용을 감싸면 된다. 
+(```언어)
+  - ex) html, css, javascript, bash, plaintext
+
+## 11. HTML 문법 이용 가능
+- 이미지 크기 지정(html 이용하여)
+  - commGom <img width="10" src="./brokenArm-commGom.jpeg" alt="commGom" />
+  - commGom <img width="70" src="./brokenArm-commGom.jpeg" alt="commGom" />
+  - commGom <img width="100" src="./brokenArm-commGom.jpeg" alt="commGom" />
+  - commGom <img width="150" src="./brokenArm-commGom.jpeg" alt="commGom" />
+
+- 인라인 style 적용하여 style 적용
+  - <span style="text-decoration: underline;">commGom</span>  입니다.
